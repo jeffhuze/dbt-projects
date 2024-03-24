@@ -16,3 +16,5 @@ from {{source('stripe','payment')}}
 -- dbt build --select stg_payments
 -- dbt run --select stg_payments
 -- dbt source freshness --select stg_payments
+-- dbt test --select stg_payments
+-- dbt test --select source:jaffle_shop
