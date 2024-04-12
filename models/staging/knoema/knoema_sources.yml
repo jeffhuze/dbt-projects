@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: INTERNATIONAL_CURRENCIES
+    database: INTERNATIONAL_CURRENCIES
+    schema: PUBLIC
+    tables:
+      - name: DEMOGRAPHICS
+      - name: CDC_TESTING
