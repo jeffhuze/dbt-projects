@@ -45,8 +45,8 @@ models:
     # marts:
     #   +materialized: table  
   # jhughes_dbt_workshop:
-    example:
-      schema: example 
+    # example:
+    #   schema: example 
     staging:
       schema: staging
       materialized: view
